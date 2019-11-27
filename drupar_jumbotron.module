@@ -1,0 +1,12 @@
+<?php
+
+include_once 'includes/drupar_jumbotron.theme.inc';
+
+/*
+* Implements hook_ctools_plugin_directory().
+*/
+function drupar_jumbotron_ctools_plugin_directory($owner, $plugin_type) {
+   if ($owner == 'ctools' && $plugin_type == 'content_types') {
+     return 'plugins/' . $plugin_type;
+   }
+}

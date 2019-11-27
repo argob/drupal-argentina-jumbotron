@@ -1,0 +1,16 @@
+name = Jumbotron
+package = Drupar
+core = 7.x
+version = 7.x-1.2
+
+dependencies[] = ctools
+dependencies[] = drupar_helpers
+
+files[] = src/Plugin/PluginInterface.php
+files[] = src/Plugin/Plugin.php
+files[] = src/Plugin/Jumbotron/Jumbotron.php
+files[] = src/Plugin/Jumbotron/JumbotronImage.php
+files[] = src/Plugin/Jumbotron/JumbotronPattern.php
+files[] = src/Plugin/Jumbotron/JumbotronContenido.php
+files[] = src/Plugin/Jumbotron/JumbotronUnaColumna.php
+files[] = src/Plugin/Jumbotron/JumbotronDosColumnas.php
